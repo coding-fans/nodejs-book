@@ -21,7 +21,7 @@ NodeJs小册
    :maxdepth: 3
 
     关于 <about/index>
-    快速开始 <quickstart/index>
+    快速开始 <quick-start/index>
 
 
 
