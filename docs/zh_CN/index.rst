@@ -22,6 +22,7 @@ NodeJs小册
 
     关于 <about/index>
     快速开始 <quick-start/index>
+    Node.js之旅 <tour/index>
     标准库 <stdlib/index>
 
 
