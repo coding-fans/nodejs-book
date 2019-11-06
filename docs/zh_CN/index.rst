@@ -18,7 +18,7 @@ NodeJs小册
 ==========
 
 .. toctree::
-   :maxdepth: 3
+    :titlesonly:
 
     关于 <about/index>
     快速开始 <quick-start/index>

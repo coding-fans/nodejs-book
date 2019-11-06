@@ -14,7 +14,7 @@ Node.js之旅
 ===========
 
 .. toctree::
-   :maxdepth: 3
+    :titlesonly:
 
     模块 <module>
     HTTP模块 <http>

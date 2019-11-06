@@ -14,6 +14,6 @@
 ========
 
 .. toctree::
-   :maxdepth: 3
+    :titlesonly:
 
     文件读写 <read-write>

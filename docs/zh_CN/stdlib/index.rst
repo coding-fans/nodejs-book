@@ -14,7 +14,7 @@
 ======
 
 .. toctree::
-   :maxdepth: 3
+    :titlesonly:
 
     文件系统 <fs/index>
 
