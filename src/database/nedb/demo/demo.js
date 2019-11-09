@@ -40,3 +40,9 @@ db.remove({
 }, function(err, n) {
     console.log('docs deleted:', n)
 })
+
+db.find({
+    name: 'Alice',
+}, function (err, docs) {
+    console.log('Alice removed:', docs)
+})

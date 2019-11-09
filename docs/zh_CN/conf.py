@@ -21,7 +21,7 @@ now = datetime.datetime.now()
 
 # -- Project information -----------------------------------------------------
 
-project = u'NodeJs小册'
+project = u'Node.js小册'
 copyright = u'2018, <a href="#">yan</a>'
 author = u'yan'
 site_domain = os.environ.get('SITE_DOMAIN', 'nodejs.fasionchan.com')
@@ -91,7 +91,7 @@ html_theme = 'alabaster'
 html_theme_options = {
     'logo': 'logo.jpg',
     #'logo_name': True,
-    'description': u'简明NodeJs小册子，涵盖基础语法、代码风格以及最佳实践。',
+    'description': u'简明Node.js小册子，涵盖基础语法、代码风格以及最佳实践。',
     'canonical_url': ('https://' + site_domain + '/zh_CN/latest/'),
 
     'font_family': ','.join(map(repr, [
