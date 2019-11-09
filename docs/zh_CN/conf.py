@@ -76,7 +76,7 @@ pygments_style = 'sphinx'
 
 
 # -- Options for HTML output -------------------------------------------------
-
+html_title = project
 html_favicon = '_static/favicon.png'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
