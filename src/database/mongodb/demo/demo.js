@@ -1,17 +1,19 @@
 const MongoClient = require('mongodb').MongoClient
 const url = 'mongodb://root:to0r@localhost:27017'
-const dbName = 'user'
-const collectionName = 'user'
+
 
 MongoClient.connect(url, {useUnifiedTopology: true}, async function(err, client) {
   // create database
+  const dbName = 'user'
   const db = client.db(dbName)
   // create collection named user
+  const collectionName = 'user'
   const user = await Promise.resolve(db.createCollection(collectionName))
   
   // insert data
   user.insertOne({
-    name: 'Alice'
+    name: 'Alice',
+    age: 19
   }, function(err, res) {
     if (err) {
       return console.log('insert fail', err)
@@ -55,5 +57,13 @@ MongoClient.connect(url, {useUnifiedTopology: true}, async function(err, client)
       return console.log(err)
     }
     console.log('remove data')
+  })
+
+  // close database
+  client.close(function(err) {
+    if (err) {
+      return console.log(err)
+    }
+    console.log('close database')
   })
 })
