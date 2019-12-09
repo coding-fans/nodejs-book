@@ -25,6 +25,7 @@ NodeJs小册
     Node.js之旅 <tour/index>
     标准库 <stdlib/index>
     数据库操作 <database/index>
+    N-API <napi/index>
 
 
 
