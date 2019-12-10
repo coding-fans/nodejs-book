@@ -2,7 +2,11 @@
     Author: huangxiaoyan
     Created time: 2019-11-15 13:24:17
     Last Modified by: huangxiaoyan
-    Last Modified time: 2019-11-23 10:06:13
+    Last Modified time: 2019-11-23 10:41:14
+
+.. meta::
+   :description lang=zh: MongoDB环境快速搭建
+   :keywords: mongdb, docker, robo3t
 
 ===============
 MongoDB环境准备

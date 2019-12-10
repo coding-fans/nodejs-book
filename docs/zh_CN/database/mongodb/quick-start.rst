@@ -2,7 +2,11 @@
     Author: huangxiaoyan
     Created time: 2019-11-13 17:23:38
     Last Modified by: huangxiaoyan
-    Last Modified time: 2019-11-17 13:17:27
+    Last Modified time: 2019-11-23 10:46:04
+
+.. meta::
+   :description lang=zh: MongoDB环境快速搭建
+   :keywords: mongdb, mongodb 上手, NoSQL
 
 ===============
 MongoDB快速上手
