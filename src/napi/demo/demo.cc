@@ -3,7 +3,7 @@
 
 napi_value SayHello(napi_env env, napi_callback_info info)
 {
-    printf("Hello\n");
+    printf("Hello World\n");
     return NULL;
 }
 
