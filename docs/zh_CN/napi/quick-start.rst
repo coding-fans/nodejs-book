@@ -16,6 +16,9 @@ Hello World
 
 最经典的入门例子，我们从编写 `helloWorld` 程序开始。
 
+头文件
+------
+
 首先新建一个文件，命名为 `demo.cc`，并引入依赖的头文件。
 
 .. literalinclude:: /_src/napi/demo/demo.cc
@@ -23,9 +26,11 @@ Hello World
     :lines: 1-2
     :linenos:
 
-在这里我们引入了 `node_api.h` 的头文件，这个头文件非常重要，可以说我们后续的代码都是建立在此基础上。
+在这里我们引入了 `node_api.h` 的头文件，这个头文件提供了 `N-API` 封装的函数，是开发 `C/C++` 模块的基础。
 然后，还可以根据需要，引入其他头文件，比如 `stdio.h`，主要用来处理输入输出问题。
 
+逻辑函数
+--------
 
 接着，定义一个 `SayHello` 的函数：
 
@@ -35,18 +40,20 @@ Hello World
     :linenos:
 
 这个函数逻辑很简单，就是输出 `hello world`。
-我们重点来看看 `napi_value`、 `napi_env` 和 `napi_callback_info`。
 
-这三个，都是属于基本的 `N-API` 数据类型。
-其中，`napi_value` 表示一个 `Javascript` 值。
-`napi_env`
-`napi_callback_info`
+我们重点看看 `napi_value` 、 `napi_env` 和 `napi_callback_info`。
+`N-API` 封装了一些基本的数据类型，
 
+Init函数
+--------
 
 .. literalinclude:: /_src/napi/demo/demo.cc
     :language: c
     :lines: 10-24
     :linenos:
+
+模块注册
+--------
 
 .. literalinclude:: /_src/napi/demo/demo.cc
     :language: c
