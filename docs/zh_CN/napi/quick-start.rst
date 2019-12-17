@@ -83,7 +83,7 @@ binding.gyp
 
 .. code-block:: shell-session
 
-    $ node-gyp build
+    $ node-gyp rebuild
 
 调用.node文件
 =============
