@@ -10,8 +10,8 @@ napi_value SayHello(napi_env env, napi_callback_info info)
 napi_value Init(napi_env env, napi_value exports)
 {
     napi_status status;
-
     napi_value fn;
+    
     status = napi_create_function(env, NULL, 0, SayHello, NULL, &fn);
     if (status != napi_ok)
         return NULL;
