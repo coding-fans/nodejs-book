@@ -146,12 +146,7 @@ NeDB 快速上手
     docs deleted: 1
     Alice removed: []
 
-这样，我们成功地运行了一个完整的nedb例子，接下来，可以继续学习：
-
-.. toctree::
-    :titlesonly:
-
-    NeDB高级查询 <query.rst>
+这样，我们成功地运行了一个完整的nedb例子。
 
 下一步
 ======
