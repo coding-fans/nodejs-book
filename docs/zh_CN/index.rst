@@ -26,8 +26,7 @@ NodeJs小册
     标准库 <stdlib/index>
     数据库操作 <database/index>
     最佳实践 <practices/index>
-
-
+    N-API <napi/index>
 
 .. comments
     comment something out below
